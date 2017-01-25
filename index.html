@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">Lilianne Cantillo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#about">About</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-  navbar-right">
+                    <li><a href="#social">Social</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-  navbar-right">
+                    <li><a href="#portafolio">Portafolio</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-  navbar-right">
+                    <li><a href="#skill">Skill</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-  navbar-right">
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="first-section" class="first-section container">
+        <br class="divider">
+        <h1 class="title" id="title">Web Developer</h1>
+        <h3 class="title2" id="title2">Where awesomeness is brought to life</h3>
+    </section>
+
+    <section class="about container" id="about">
+        <br class="divider">
+        <h1>About me</h1>
+        <div class="row">
+            <div class="col-sm-4"><img src="./lily.JPG" class="lily img-responsive img-rounded" alt="Responsive image"></div>
+            <div class="col-sm-8">
+                <h3 class="web">Web Developer</h3>
+                <p class="resume" id="resume">I am an ambitious web developer looking for a challenging new role in a talented team with the opportunity to work with the latest technologies on high profile projects. I am a quick learner willing to learn and adopt new programming languages,
+                    libraries, and technologies as needed.</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section id="contact" class="container">
+        <br class="divider">
+        <h2>Contact</h2>
+        <form action="http://fvi-grad.com:4004/email" method="post">
+            <input class="form-control" type="text" name="dest_email" value="lcantillo@fvi.edu" style="display: none">
+            <input class="form-control" type="text" name="full_name" value="" placeholder="Full Name">
+            <input class="form-control" type="text" name="phone" value="" placeholder="Phone">
+
+            <input class="form-control" type="email" name="email" value="" placeholder="Email">
+            <textarea class="form-control" name="message" value="" rows="8" cols="80" placeholder="your message"></textarea>
+            <input class="btn btn-primary" type="submit" name="" value="Send">
+        </form>
+    </section>
+
+    <section class="portafolio container" id="portafolio">
+        <h1 class="portafolio">Portafolio</h1>
+        <div class="cards-container">
+            <div class="card">
+                <img class="card-img-top" src="./htmlimage.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Html Page</h4>
+                    <p class="card-text">I build my first Html page</p>
+                    <a href="https://lcantillo00.github.io/html-page/" class="btn btn-primary">Check my web</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./dice-roll.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Dice Roll Game</h4>
+                    <p class="card-text">I make a website with a dice roll game</p>
+                    <a href="https://lcantillo00.github.io/dice-roll-game/" class="btn btn-primary">Check my web</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./music-box.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Music Box</h4>
+                    <p class="card-text"> Beautiful music</p>
+                    <a href="https://lcantillo00.github.io/music-boxes/" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="social container" id="social">
+        <br class="divider">
+        <h1 class="socialtitulo" id="socialtitulo">Social Media</h1>
+        <div class="row icon">
+            <div class="col-sm-4"><a href="https://github.com/lcantillo00"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a></div>
+            <div class="col-sm-4"><a href="https://www.linkedin.com/in/lilianne-cantillo-1a871725/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></div>
+            <div class="col-sm-4"><a href="https://www.facebook.com/lilianne.lily?ref=bookmarks"><i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i></a></div>
+        </div>
+
+
+
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./portafolio.js"></script>
+</body>
+
+</html>

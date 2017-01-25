@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    color:blue;
+    padding-top: 50px;
+}
+h1{
+  text-align: center;
+}
+.divider {
+  height: 80px;
+}
+.first-section {
+    min-height: 100vh;
+    width: 100vw;
+    max-width: none;
+    background-image: url('./web-developer-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-default {
+    margin-bottom: 1px;
+    background-color: transparent;
+    color:blue;
+}
+
+.title {
+    text-align: center;
+
+    font-family: sans-serif;
+    margin: 0;
+    padding-top: 20px;
+}
+.title2{
+  text-align: center;
+  font-family: sans-serif;
+  color:inherit;
+  margin-top: 90px;
+
+}
+.lily {
+  width: 100%;
+}
+.resume{
+  text-align: center;
+  margin-top: 70px;
+}
+.web{
+  text-align: center;
+}
+
+.social{
+  min-height: 100vh;
+  width: 100vw;
+  max-width: none;
+  background-image: url('./socialmedia.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.fa{
+  margin-top:250px;
+  color:blue;
+  transition: transform .2s;
+}
+.fa:hover {
+  transform: scale(1.2);
+}
+.col-sm-4{
+  text-align: center;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+  min-width: 280px;
+  max-width: 280px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  margin: 20px;
+}
+.card .card-img-top {
+  width: 100%;
+}
+.card .card-block {
+  padding: 15px;
+}
