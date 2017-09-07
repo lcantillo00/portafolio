@@ -1,0 +1,17 @@
+(function(document) {
+  var _bars = [].slice.call(document.querySelectorAll('.bar-inner'));
+  _bars.map(function(bar, index) {
+    setTimeout(function() {
+    	bar.style.width = bar.dataset.percent;
+    }, index * 1000);
+    
+})(document)
+
+// function scaleUp(obj, size)
+// {
+//     obj.style.size=
+// }
+
+// $(document).ready(function(){
+//
+// });

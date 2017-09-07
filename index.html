@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css ">
     <link rel="stylesheet" href="./main.css">
+<script type="text/javascript">
+        function changebgColor(obj,colorName)
+        {
+            obj.style.background-color=colorName;
+        }
+</script>
+
 </head>
 
 <body>
@@ -51,8 +58,19 @@
     </nav>
     <section id="first-section" class="first-section container">
         <br class="divider">
-        <h1 class="title" id="title">Web Developer</h1>
-        <h3 class="title2" id="title2">Where awesomeness is brought to life</h3>
+        <ul class="bubbles">
+            <li class="mov" id="mov" onmouseover="changebgColor(this,'skyblue')" onmouseout="changebgColor(this,'#e1eff7')">test</li>
+            <li class="mov" id="mov">Coding</li>
+            <li class="mov" id="mov"></li>
+            <li class="mov" id="mov">Tecnology</li>
+            <li class="mov" id="mov">Web</li>
+            <li class="mov" id="mov">Application</li>
+            <li class="mov" id="mov">Innovation</li>
+            <li class="mov" id="mov">DeV</li>
+            <li class="mov" id="mov"></li>
+            <li class="mov" id="mov">Programming</li>
+        </ul>
+
     </section>
 
     <section class="about container" id="about">
@@ -67,23 +85,8 @@
             </div>
         </div>
 
-
-
     </section>
 
-    <section id="contact" class="container">
-        <br class="divider">
-        <h2>Contact</h2>
-        <form action="http://fvi-grad.com:4004/email" method="post">
-            <input class="form-control" type="text" name="dest_email" value="lcantillo@fvi.edu" style="display: none">
-            <input class="form-control" type="text" name="full_name" value="" placeholder="Full Name">
-            <input class="form-control" type="text" name="phone" value="" placeholder="Phone">
-
-            <input class="form-control" type="email" name="email" value="" placeholder="Email">
-            <textarea class="form-control" name="message" value="" rows="8" cols="80" placeholder="your message"></textarea>
-            <input class="btn btn-primary" type="submit" name="" value="Send">
-        </form>
-    </section>
 
     <section class="portafolio container" id="portafolio">
         <h1 class="portafolio">Portafolio</h1>
@@ -118,15 +121,86 @@
         <br class="divider">
         <h1 class="socialtitulo" id="socialtitulo">Social Media</h1>
         <div class="row icon">
-            <div class="col-sm-4"><a href="https://github.com/lcantillo00"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a></div>
-            <div class="col-sm-4"><a href="https://www.linkedin.com/in/lilianne-cantillo-1a871725/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></div>
-            <div class="col-sm-4"><a href="https://www.facebook.com/lilianne.lily?ref=bookmarks"><i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i></a></div>
+            <div class="col-sm-4"><a href="https://github.com/lcantillo00"><i class="fa fa-github fa-5x  icon" aria-hidden="true"></i></a></div>
+            <div class="col-sm-4"><a href="https://www.linkedin.com/in/lilianne-cantillo-1a871725/"><i class="fa fa-linkedin-square fa-5x icon" aria-hidden="true"></i></a></div>
+            <div class="col-sm-4"><a href="https://www.facebook.com/lilianne.lily?ref=bookmarks"><i class="fa fa-facebook-square fa-5x icon" aria-hidden="true"></i></a></div>
         </div>
 
-
-
-
     </section>
+    <section  id="skill" class="myskill">
+
+        <div class="row">
+       <div class="col-xs-6 form-group">
+           <h2>Javascript</h2>
+           <div class="bar">
+             <div class="bar-inner jv bar-90" data-percent="90%"></div>
+           </div>
+       </div>
+       <div class="col-xs-6 form-group">
+           <h2>Python</h2>
+           <div class="bar">
+             <div class="bar-inner py bar-80" data-percent="80%"></div>
+           </div>
+
+       </div>
+       <div class="col-xs-6">
+           <h2>HTML </h2>
+           <div class="bar">
+             <div class="bar-inner ht bar-90" data-percent="95%"></div>
+           </div>
+       </div>
+       <div class="col-xs-6 form-group">
+           <h2>CSS </h2>
+           <div class="bar">
+             <div class="bar-inner cs bar-90" data-percent="95%"></div>
+           </div>
+       </div>
+       <div class="col-xs-6 form-group">
+           <h2>PHP </h2>
+           <div class="bar">
+             <div class="bar-inner ph bar-80" data-percent="70%"></div>
+           </div>
+       </div>
+       <div class="col-xs-6 form-group">
+           <h2>C#</h2>
+           <div class="bar">
+             <div class="bar-inner c bar-80" data-percent="70%"></div>
+           </div>
+       </div>
+       <div class="col-xs-6 form-group">
+           <h2>GIT</h2>
+           <div class="bar">
+             <div class="bar-inner gi bar-80" data-percent="100%"></div>
+           </div>
+       </div>
+       <div class="col-xs-6 form-group">
+           <h2>SQL </h2>
+           <div class="bar">
+             <div class="bar-inner sq bar-80" data-percent="70%"></div>
+           </div>
+       </div>
+       <div class="col-xs-6 form-group">
+           <h2>MongoBD </h2>
+           <div class="bar">
+             <div class="bar-inner mdb bar-80" data-percent="70%"></div>
+           </div>
+       </div>
+   </div>
+    </section>
+
+        <section id="contact" class="container">
+            <br class="divider">
+            <h2>Contact</h2>
+            <form action="http://fvi-grad.com:4004/email" method="post">
+                <input class="form-control" type="text" name="dest_email" value="lcantillo@fvi.edu" style="display: none">
+                <input class="form-control" type="text" name="full_name" value="" placeholder="Full Name">
+                <!-- <input class="form-control" type="text" name="phone" value="" placeholder="Phone"> -->
+
+                <input class="form-control" type="email" name="email" value="" placeholder="Email">
+                <textarea class="form-control" name="message" value="" rows="8" cols="80" placeholder="your message"></textarea>
+                <input class="btn btn-primary" type="submit" name="" value="Send">
+            </form>
+        </section>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
