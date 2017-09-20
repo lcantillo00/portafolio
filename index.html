@@ -46,7 +46,7 @@
                     <li><a href="#portafolio">Portafolio</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-  navbar-right">
-                    <li><a href="#skill">Skill</a></li>
+                    <li><a class="skilllink" href="#skill">Skill</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-  navbar-right">
                     <li><a href="#contact">Contact</a></li>
@@ -59,7 +59,7 @@
     <section id="first-section" class="first-section container">
         <br class="divider">
         <ul class="bubbles">
-            <li class="mov" id="mov" onmouseover="changebgColor(this,'skyblue')" onmouseout="changebgColor(this,'#e1eff7')">test</li>
+            <li class="mov" id="mov" onmouseover="changebgColor(this,'#9fa8a3')" onmouseout="changebgColor(this,'#9ad3de')">test</li>
             <li class="mov" id="mov">Coding</li>
             <li class="mov" id="mov"></li>
             <li class="mov" id="mov">Tecnology</li>
@@ -89,7 +89,7 @@
 
 
     <section class="portafolio container" id="portafolio">
-        <h1 class="portafolio">Portafolio</h1>
+        <h1 >Portafolio</h1>
         <div class="cards-container">
             <div class="card">
                 <img class="card-img-top" src="./htmlimage.jpg" alt="Card image cap">
@@ -117,89 +117,109 @@
             </div>
         </div>
     </section>
-    <section class="social container" id="social">
+    <section class=" container" id="social">
         <br class="divider">
         <h1 class="socialtitulo" id="socialtitulo">Social Media</h1>
-        <div class="row icon">
+        <div class="social row icon">
             <div class="col-sm-4"><a href="https://github.com/lcantillo00"><i class="fa fa-github fa-5x  icon" aria-hidden="true"></i></a></div>
             <div class="col-sm-4"><a href="https://www.linkedin.com/in/lilianne-cantillo-1a871725/"><i class="fa fa-linkedin-square fa-5x icon" aria-hidden="true"></i></a></div>
             <div class="col-sm-4"><a href="https://www.facebook.com/lilianne.lily?ref=bookmarks"><i class="fa fa-facebook-square fa-5x icon" aria-hidden="true"></i></a></div>
         </div>
 
     </section>
-    <section  id="skill" class="myskill">
+    <section  id="skill" >
+        <br class="divider">
+        <h1 class="l">My Skill</h1>
+        <div class="myskill">
+            <div class="main left">
+    		<div class="progressBar">
+    			<div class="title JsColor">Javascript</div>
+    			<div class="progress js"></div>
+    			<div class="progress_value">85%</div>
+    		</div>
+    		<div class="progressBar">
+    			<div class="title PyColor">Python</div>
+    			<div class="progress py"></div>
+    			<div class="progress_value">85%</div>
+    		</div>
+    		<div class="progressBar">
+    			<div class="title htmlColor">HTML5</div>
+    			<div class="progress html"></div>
+    			<div class="progress_value">95%</div>
+    		</div>
+    		<div class="progressBar">
+    			<div class="title sqlColor">SQL</div>
+    			<div class="progress sql"></div>
+    			<div class="progress_value">50%</div>
+    		</div>
+            <div class="progressBar">
+    			<div class="title mongoColor">MongoDB</div>
+    			<div class="progress mongo"></div>
+    			<div class="progress_value">95%</div>
+    		</div>
 
-        <div class="row">
-       <div class="col-xs-6 form-group">
-           <h2>Javascript</h2>
-           <div class="bar">
-             <div class="bar-inner jv bar-90" data-percent="90%"></div>
-           </div>
-       </div>
-       <div class="col-xs-6 form-group">
-           <h2>Python</h2>
-           <div class="bar">
-             <div class="bar-inner py bar-80" data-percent="80%"></div>
-           </div>
+            	</div>
+                <div class="main rigth">
+                    <div class="progressBar">
+            			<div class="title gitColor">Git</div>
+            			<div class="progress git"></div>
+            			<div class="progress_value">100%</div>
+            		</div>
+                    <div class="progressBar">
+            			<div class="title nodeColor">NodeJs</div>
+            			<div class="progress node"></div>
+            			<div class="progress_value">70%</div>
+            		</div>
+                    <div class="progressBar">
+            			<div class="title flexColor">Flexbox</div>
+            			<div class="progress flex"></div>
+            			<div class="progress_value">70%</div>
+            		</div>
+                    <div class="progressBar">
+            			<div class="title jqueryColor">Jquery</div>
+            			<div class="progress jquery"></div>
+            			<div class="progress_value">95%</div>
+                    </div>
+                    <div class="progressBar">
+                			<div class="title reactColor">React</div>
+                			<div class="progress react"></div>
+                			<div class="progress_value">45%</div>
+                	</div>
+            		<!-- </div><div class="progressBar">
+            			<div class="title phpColor">Python</div>
+            			<div class="progress php"></div>
+            			<div class="progress_value">95%</div>
+            		</div><div class="progressBar">
+            			<div class="title phpColor">Python</div>
+            			<div class="progress php"></div>
+            			<div class="progress_value">95%</div>
+            		</div>
+                </div> -->
 
-       </div>
-       <div class="col-xs-6">
-           <h2>HTML </h2>
-           <div class="bar">
-             <div class="bar-inner ht bar-90" data-percent="95%"></div>
-           </div>
-       </div>
-       <div class="col-xs-6 form-group">
-           <h2>CSS </h2>
-           <div class="bar">
-             <div class="bar-inner cs bar-90" data-percent="95%"></div>
-           </div>
-       </div>
-       <div class="col-xs-6 form-group">
-           <h2>PHP </h2>
-           <div class="bar">
-             <div class="bar-inner ph bar-80" data-percent="70%"></div>
-           </div>
-       </div>
-       <div class="col-xs-6 form-group">
-           <h2>C#</h2>
-           <div class="bar">
-             <div class="bar-inner c bar-80" data-percent="70%"></div>
-           </div>
-       </div>
-       <div class="col-xs-6 form-group">
-           <h2>GIT</h2>
-           <div class="bar">
-             <div class="bar-inner gi bar-80" data-percent="100%"></div>
-           </div>
-       </div>
-       <div class="col-xs-6 form-group">
-           <h2>SQL </h2>
-           <div class="bar">
-             <div class="bar-inner sq bar-80" data-percent="70%"></div>
-           </div>
-       </div>
-       <div class="col-xs-6 form-group">
-           <h2>MongoBD </h2>
-           <div class="bar">
-             <div class="bar-inner mdb bar-80" data-percent="70%"></div>
-           </div>
-       </div>
-   </div>
+
+        </div>
+
     </section>
 
         <section id="contact" class="container">
             <br class="divider">
-            <h2>Contact</h2>
-            <form action="http://fvi-grad.com:4004/email" method="post">
-                <input class="form-control" type="text" name="dest_email" value="lcantillo@fvi.edu" style="display: none">
-                <input class="form-control" type="text" name="full_name" value="" placeholder="Full Name">
-                <!-- <input class="form-control" type="text" name="phone" value="" placeholder="Phone"> -->
+            <h2 class="ct">Contact</h2>
+            <div class="contactForm">
+                <form action="http://fvi-grad.com:4004/email" method="post" class="myform">
+                    <input class="form-control" type="text" name="dest_email" value="lcantillo@fvi.edu" style="display: none">
+                    <div class="justs">
+                        <div class="nameemail">
+                            <input class="form-control" type="text" name="full_name" value="" placeholder="Full Name">
+                            <!-- <input class="form-control" type="text" name="phone" value="" placeholder="Phone"> -->
+                            <input class="form-control" type="email" name="email" value="" placeholder="Email@com">
+                        </div>
 
-                <input class="form-control" type="email" name="email" value="" placeholder="Email">
-                <textarea class="form-control" name="message" value="" rows="8" cols="80" placeholder="your message"></textarea>
-                <input class="btn btn-primary" type="submit" name="" value="Send">
-            </form>
+                    </div>
+                    <textarea class="form-control" name="message" value="" rows="8" cols="80" placeholder="Your message"></textarea>
+                    <input class="btn btn-primary" type="submit" name="" value="Send">
+                </form>
+            </div>
+
         </section>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
