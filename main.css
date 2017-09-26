@@ -16,11 +16,12 @@ body {
   /*background: #b0bec5;*/
 }
 h1{
+    margin-top: 50px;
   text-align: center;
 }
-.divider {
-  height: 80px;
-}
+/*.divider {
+  height: 85px;
+}*/
 .first-section{
     margin:0;
     padding: 0;
@@ -37,19 +38,29 @@ h1{
     left: 0;
     width: 100%;
     height: 100%;
+    word-wrap: break-word;
+    color: white;
 }
 .bubbles li{
+    display: flex;
+    align-items: center;
+   justify-content: center;
     position: absolute;
     list-style: none;
     display: block;
     width: 20px;
     height: 20px;
-    background: #e3e0cf;
+    background:#21C1C8;
     animation: animate 25s linear infinite;
     bottom: -150px;
+    text-align: center;
+    vertical-align: middle;
+
+
+
 }
 .bubbles li:hover{
-    background-color: blue;
+    background-color:#e3e0cf;
 }
 .bubbles li:nth-child(1){
     left: 25%;
@@ -59,27 +70,27 @@ h1{
 }
 .bubbles li:nth-child(2){
     left: 10%;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     animation-delay: 2s;
     animation-duration: 12s;
 }
 .bubbles li:nth-child(3){
     left: 70%;
-    width: 20px;
-    height: 20px;
+    width: 60px;
+    height: 60px;
     animation-delay: 4s;
 }
 .bubbles li:nth-child(4){
     left: 40%;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     animation-delay: 18s;
 }
 .bubbles li:nth-child(5){
     left: 65%;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     /*animation: 0s;*/
     animation-delay: 0s;
 }
@@ -100,10 +111,10 @@ h1{
 }
 .bubbles li:nth-child(8){
     left: 50%;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     animation-delay: 15s;
-    animation-duration: 45s;
+    animation-duration: 35s;
 
 }
 .bubbles li:nth-child(9){
@@ -111,15 +122,29 @@ h1{
     width: 15px;
     height: 15px;
     animation-delay: 2s;
-    animation-duration: 35s;
+    animation-duration: 25s;
 }
 .bubbles li:nth-child(10){
     left: 85%;
     width: 150px;
     height: 150px;
     animation-delay: 0s;
-     animation-duration: 12s;
+     animation-duration: 10s;
 }
+.bubbles li:nth-child(11){
+    left: 95%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0;
+}
+.bubbles li:nth-child(12){
+    left: 75%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0;
+}
+
+
 .container-fluid{
  background-color: #4b636e;
  opacity:0.5;
@@ -170,9 +195,9 @@ h1{
 
 .social{
     min-height: 50vh;
-    width: 100vw;
-    margin: 50px;
-    padding: 50px;
+    /*width: 100vw;*/
+    /*margin: 50px;*/
+    /*padding: 50px;*/
 
   /*margin-top: 50px;
   min-height: 60vh;
@@ -183,13 +208,8 @@ h1{
   /*background-repeat: no-repeat;
   background-size: cover;*/
 
-  height: 200px;
-  background: #E0E0E0; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#757575, #F5F5F5); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#757575, #F5F5F5); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#757575, #F5F5F5); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#757575, #F5F5F5); /* Standard syntax (must be last) */
-}
+  height: 60px;
+  }
 
 .fa{
   margin-top:250px;
@@ -198,7 +218,7 @@ h1{
 
 .icon{
     margin-top: 80px;
-     color:#FAFAFA;
+     color:#21C1C8;
 }
 .fa:hover {
   transform: scale(1.2);
@@ -287,7 +307,10 @@ display: flex;
         		border-radius: 5px;
         		box-shadow: 2px 0 2px #555;
         	}
-        	.JsColor{
+            .title{
+                background: #21C1C8;
+            }
+        	/*.JsColor{
         		background: #b71c1c;
         	}
         	.PyColor{
@@ -316,36 +339,37 @@ display: flex;
         	}
             .reactColor{
                 background-color: #424242;
-            }
+            }*/
             .js{
-        		background:#ec407a;
+        		/*background:#ec407a;*/
+                background: #e3e0cf;
         	}
             .py{
-        		background:#ab47bc;
+        		background:#e3e0cf;
         	}
         	.html{
-        		background:#5c6bc0;
+        		background:#e3e0cf;
         	}
             .sql{
-        		background:#5c6bc0;
+        		background:#e3e0cf;
         	}
             .git{
-                background-color: gray;
+                background-color: #e3e0cf;
             }
             .node{
-                background-color: blue;
+                background-color: #e3e0cf;
             }
             .flex{
-                background-color: red;
+                background-color: #e3e0cf;
             }
             .jquery{
-                background-color: yellow;
+                background-color: #e3e0cf;
             }
             .react{
-                background-color: violet;
+                background-color:#e3e0cf;
             }
             .mongo{
-                background-color: #EF9A9A;
+                background-color:#e3e0cf;
             }
         	@media (max-width: 720px) {
         		.main{
@@ -411,8 +435,9 @@ display: flex;
 }
 .contactForm{
     display: flex;
+    margin: auto;
     justify-content: center;
-    width: 100%;
+    width: 80%;
 }
 .myform{
     width: 100%;
@@ -421,8 +446,8 @@ display: flex;
 .contact{
     margin: 25px;
 }
-.justs{
-    display: flex;
+.name{
+    margin-bottom:5px;
 }
 .nameemail{
 
@@ -430,6 +455,7 @@ margin-bottom: 20px;
 }
 .ct{
     text-align: center;
+    margin-top: 40px;
 }
 .left {
     margin: 30px;
@@ -443,4 +469,29 @@ margin-bottom: 20px;
     margin: 50px;
     padding: 50px;
     margin-top: 50px;
+}
+.aboutIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myicons{
+    margin: 20px;
+
+
+}
+.abouth3{
+    text-align: center;
+}
+.whois{
+    margin-top: 65px;
+}
+.my{
+    margin-top: 55px;
+    text-align: center;
+}
+.btn{
+    border:none;
+    background-color: #21C1C8;
+    color: white;
 }

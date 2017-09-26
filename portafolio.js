@@ -11,5 +11,17 @@ $(document).ready(function(){
         $('.react').animate({width:'75%'},2000);
         $('.jquery').animate({width:'95%'},2000);
     })
+    // $('.skilllink').click(function(){
+    //     $('.bar').animate({width:'90%'},2000);
+    //     $('.bar').animate({width:'95%'},2000);
+    //     $('.bar').animate({width:'95%'},2000);
+    //     $('.bar').animate({width:'75%'},2000);
+    //     $('.bar').animate({width:'75%'},2000);
+    //     $('.bar').animate({width:'100%'},2000);
+    //     $('.bar').animate({width:'70%'},2000);
+    //     $('.bar').animate({width:'95%'},2000);
+    //     $('.bar').animate({width:'75%'},2000);
+    //     $('.bar').animate({width:'95%'},2000);
+    // })
 
         	});
